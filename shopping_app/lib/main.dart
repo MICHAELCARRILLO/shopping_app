@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Shopping App',
+      debugShowCheckedModeBanner: false,
       home: Home(),
     );
   }
